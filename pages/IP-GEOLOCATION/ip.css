@@ -1,0 +1,18 @@
+h1 {
+  color: rgb(97, 11, 114);
+}
+
+body {
+  background-color: cadetblue;
+}
+
+label {
+  color: blue;
+}
+
+input {
+  color: yellowgreen;
+}
+button {
+  color: red;
+}
