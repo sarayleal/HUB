@@ -22,26 +22,8 @@ const template = () => `
 </ul>
 </nav>
 `;
-/*
-const addListeners = () => {
-  document
-    .querySelector("#homelink")
-    .addEventListener("click", () => initContent("HOME"));
-  document
-    .querySelector("#ip-geolocationlink")
-    .addEventListener("click", () => initContent("IP-GEOLOCATION"));
-  document
-    .querySelector("#loginlink")
-    .addEventListener("click", () => initContent("LOGIN"));
-  document
-    .querySelector("#pokeapilink")
-    .addEventListener("click", () => initContent("POKAPI"));
-  document
-    .querySelector("#spslink")
-    .addEventListener("click", () => initContent("SPS"));
-}; 
+
 
 export const printTemplate = () => {
-  document.querySelector("#main").innerHTML = template();
-  addListeners();
-} */
+  document.querySelector("#app").innerHTML = template();
+} 
