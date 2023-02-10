@@ -1,6 +1,6 @@
 import "./style.css";
 
-import { printTemplate as headerTemplate } from "./components/HEADER/header";
+/* import { printTemplate as headerTemplate } from "./components/HEADER/header"; */
 import { printTemplate as homeTemplate } from "./pages/HOME/home";
 import { printTemplate as ipTemplate } from "./pages/IP-GEOLOCATION/ip";
 import { printTemplate as pokeapiTemplate } from "./pages/POKEAPI/pokeapi";
@@ -32,5 +32,5 @@ export const initContent = (route) => {
   }
 };
 
-headerTemplate();
+/* headerTemplate(); */
 initContent();

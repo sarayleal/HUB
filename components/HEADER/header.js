@@ -22,7 +22,7 @@ const template = () => `
 </ul>
 </nav>
 `;
-
+/*
 const addListeners = () => {
   document
     .querySelector("#homelink")
@@ -39,9 +39,9 @@ const addListeners = () => {
   document
     .querySelector("#spslink")
     .addEventListener("click", () => initContent("SPS"));
-};
+}; 
 
 export const printTemplate = () => {
   document.querySelector("#main").innerHTML = template();
   addListeners();
-};
+} */

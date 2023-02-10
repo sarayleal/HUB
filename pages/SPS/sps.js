@@ -8,5 +8,5 @@ const template = () => `
 `;
 
 export const printTemplate = () => {
-  document.querySelector("#main").innerHTML = template();
+  document.querySelector("#app").innerHTML = template();
 };
