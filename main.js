@@ -7,8 +7,6 @@ import { printTemplate as pokeapiTemplate } from "./pages/POKEAPI/pokeapi";
 import { printTemplate as spsTemplate } from "./pages/SPS/sps";
 import { printTemplate as loginTemplate } from "./pages/LOGIN/login";
 
-
-
 export const initContent = (route) => {
   switch (route) {
     case undefined:
@@ -29,9 +27,15 @@ export const initContent = (route) => {
     case "LOGIN":
       loginTemplate();
       break;
+    case "CHANGEBACKGROUND":
+      changeBackgrooundTemplate();
+      break;
+    case "LOGOUT":
+      logoutTemplate();
+      break;
   }
 };
 
-headerTemplate(); 
+headerTemplate();
 initContent();
 

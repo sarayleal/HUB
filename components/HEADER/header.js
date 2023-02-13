@@ -8,7 +8,7 @@ const template = () => `
 <a href="#" id="homelink">HOME</a>
 </li>
 <li>
-<a href="#" id="iplink">IP-GEOLOCATION</a>
+<a href="#" id="ipgeolocationlink">IP-GEOLOCATION</a>
 </li>
 <li>
 <a href="#" id="loginlink">LOGIN</a>   
@@ -18,6 +18,12 @@ const template = () => `
 </li>
 <li>
 <a href="#" id="spslink">SPS</a>
+</li>
+<li>
+<a href="#" id="btnBackgroundlink">CHANGE BACKGROUND</a>
+</li>
+<li>
+<a href="#" id="logoutlink">LOGOUT</a>
 </li>
 </ul>
 </nav>

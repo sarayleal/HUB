@@ -1,8 +1,7 @@
 import { initContent } from "../../main";
 import "./login.css";
 
-
-const template = () => {`
+const template = `
  <div class="containerPrincipal">
    <div class="form-group">
      <p></p>
@@ -10,20 +9,17 @@ const template = () => {`
      <button id="botonLogin" class="botonLogin">Iniciar Sesion</button>
    </div>
  </div>
- `
-};
-
+ `;
 const addListeners = () => {
-  let user;
-  user = document.querySelector("#usuario");
-  document.querySelector("#botonLogin").addEventListener("click", () => {
-    localStorage.setItem("user", user.value);
+  const userInput = document.querySelector("#usuario");
+  const loginBtn = document.querySelector("#botonLogin");
+  loginBtn.addEventListener("click", () => {
+    localStorage.setItem("user", userInput.value);
+    initContent();
   });
 };
 
 export const printTemplate = () => {
-  document.querySelector("#app").innerHTML = template();
+  document.querySelector("#app").innerHTML = template;
   addListeners();
-  initContent();
-  
 };
